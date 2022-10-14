@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/**
+ * main function - Prints a sentence
+ */
 
 int main(void)
 {
