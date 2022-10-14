@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 /**
- * main function - Prints a sentence
+ * main - This is the main function
+ *
+ * Description - The program prints some text to do
+ * with grammar.
+ * Return: It returns a sentence.
  */
 
 int main(void)
