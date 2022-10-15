@@ -3,10 +3,10 @@
 
 
 /**
- * main - This is the main function
- * Description - The function uses put
- * to output a sentence
- * return - the program returns a string
+ * main - The main function.
+ *
+ * Description: The function uses put to output a sentence.
+ * return : It returns a sentence using put.
  */
 
 int main(void)
