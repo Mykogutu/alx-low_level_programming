@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	char strng[51];
+	char strng[53];
 
 	strcpy(strng, " \"Programming is like building a multilingual puzzle");
 	puts(strng);
