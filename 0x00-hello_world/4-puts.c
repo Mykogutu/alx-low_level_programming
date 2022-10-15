@@ -1,19 +1,16 @@
 #include <stdio.h>
-#include <string.h>
-
 
 /**
- * main - The main function.
+ * main - This is the main function.
  *
- * Description: The function uses put to output a sentence.
- * return : It returns a sentence using put.
+ * Description -The program uses puts to output a string.
+ * Return: It returns a sentence.
  */
 
 int main(void)
 {
-	char strng[52];
+	char wrd[52] = "\"Programming is like building a multilingual puzzle";
 
-	strcpy(strng, "\"Programming is like building a multilingual puzzle");
-	puts(strng);
+	puts(wrd);
 	return (0);
 }
