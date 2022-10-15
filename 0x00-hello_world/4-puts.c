@@ -6,13 +6,14 @@
  * main - This is the main function
  * Description - The function uses put
  * to output a sentence
+ * return - the program returns a string
  */
 
 int main(void)
 {
 	char strng[51];
 
-	strcpy(strng, "Programming is like building a multilingual puzzle");
+	strcpy(strng, " \"Programming is like building a multilingual puzzle");
 	puts(strng);
 	return (0);
 }
