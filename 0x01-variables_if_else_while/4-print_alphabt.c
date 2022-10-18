@@ -8,17 +8,9 @@ int main(void)
 {
 	char small = 'a';
 
-	while (small <= 'z')
+	while (small != 'q' && small != 'e' && small <= 'z')
 	{
-		if (small == 'q' || small == 'e')
-		{
-			continue;
-		}
-		else
-		{
-			putchar(small);
-		}
-		small++;
+		putchar(small);
 	}
 	putchar('\n');
 	return (0);
