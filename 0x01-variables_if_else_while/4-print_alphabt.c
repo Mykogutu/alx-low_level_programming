@@ -10,12 +10,19 @@ int main(void)
 
 	while (small <= 'z')
 	{
-		if (small == 'q' || small == 'e')
+		if (small == 'e')
 		{
 			continue;
 		}
-		putchar(small);
-		small++;
+		else if (small == 'q')
+		{
+			continue;
+		}
+		else
+		{
+			putchar(small);
+			small++;
+		}
 	}
 	putchar('\n');
 	return (0);
