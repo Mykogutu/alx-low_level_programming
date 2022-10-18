@@ -11,6 +11,7 @@ int main(void)
 	while (small != 'q' && small != 'e' && small <= 'z')
 	{
 		putchar(small);
+		small++;
 	}
 	putchar('\n');
 	return (0);
