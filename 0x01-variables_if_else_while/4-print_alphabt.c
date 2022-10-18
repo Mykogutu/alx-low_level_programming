@@ -18,11 +18,8 @@ int main(void)
 		{
 			continue;
 		}
-		else
-		{
-			putchar(small);
-			small++;
-		}
+		putchar(small);
+		small++;
 	}
 	putchar('\n');
 	return (0);
