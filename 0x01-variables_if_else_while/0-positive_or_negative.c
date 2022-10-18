@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
- * main - The main function
- *
- * Description - The program checks for positive and negatives.
- * return: It returns the value of n.
+/** main: The main function
+ * 
+ * @n: random input
+ * Description: The progran checks for positive and negatives
+ * Returns: It returns zero, negative or positive.
  */
 
 int main(void)
