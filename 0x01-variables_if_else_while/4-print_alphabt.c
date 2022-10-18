@@ -8,8 +8,10 @@ int main(void)
 {
 	char small = 'a';
 
-	while (small != 'q' && small != 'e' && small <= 'z')
+	while (small <= 'z')
 	{
+		if (small == 'q' || small == 'e')
+				continue;
 		putchar(small);
 		small++;
 	}
