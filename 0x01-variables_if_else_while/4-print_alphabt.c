@@ -6,20 +6,15 @@
  */
 int main(void)
 {
-	char small = 'a';
+	char letter;
 
-	while (small <= 'z')
+	for (letter = 0; letter <= 'z'; letter++)
 	{
-		if (small == 'e')
+		if (letter == 'q' || letter == 'e')
 		{
 			continue;
 		}
-		else if (small == 'q')
-		{
-			continue;
-		}
-		putchar(small);
-		small++;
+		putchar(letter);
 	}
 	putchar('\n');
 	return (0);
