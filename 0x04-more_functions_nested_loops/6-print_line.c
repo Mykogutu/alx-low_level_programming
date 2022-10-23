@@ -8,13 +8,10 @@
  */
 void print_line(int n)
 {
-	while (n >= 1)
+	while (n > 0)
 	{
-		if (n <= 0)
-		{
-			_putchar('\n');
-		}
 		_putchar('_');
+		n--;
 	}
-	putchar('_');
+	putchar('\n');
 }
