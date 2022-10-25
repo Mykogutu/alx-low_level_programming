@@ -5,6 +5,7 @@
 /**
  * _strlen - returns the length of a string
  * @len: string length
+ * @s: the string
  *
  * Return: Always 0
  */
