@@ -16,6 +16,10 @@ void puts2(char *str)
 
 	for (i = 0; i < len; i++)
 	{
+		if (len % 2 != 0)
+		{
+			continue;
+		}
 		printf("%c\n", str[i]);
 	}
 }
