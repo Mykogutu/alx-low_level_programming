@@ -20,7 +20,10 @@ void puts2(char *str)
 		{
 			continue;
 		}
-		printf("%c", str[i]);
+		else if (str[i] != '\0')
+		{
+			printf("%c", str[i]);
+		}
 	}
 	printf("\n");
 }
