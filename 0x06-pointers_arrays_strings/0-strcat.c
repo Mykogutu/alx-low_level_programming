@@ -3,13 +3,20 @@
 #include <string.h>
 
 /**
- * _strcat - concatinates two strings
- * @dest: string one
- * @src: string two
- * Return: A concatinated string
+ * _strcat - concatenates two strings
+ * @dest: destination string
+ * @src : source string
+ *
+ * Return: concatenated string
  */
 char *_strcat(char *dest, char *src)
 {
-	strcat(dest, src);
-	return (dest);
+	int i;
+	int len1 = strlen(dest);
+	int len2 = strlen(src);
+
+	for (i = 0; i < len2; i++)
+	{
+		dest[len1 + i] = src[i];
+	}
 }
