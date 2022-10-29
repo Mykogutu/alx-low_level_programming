@@ -7,14 +7,16 @@
  * @dest: The destination string
  * @src: The source string
  * @n: number of characters to be copied
+ * Return: retuns a copied string
  */
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
-	for (i = 0; i <= n; i++)
+	for (i = 0; i < n; i++)
 	{
 		dest[i] = src[i];
 	}
+	dest[i] = '\0';
 	return (dest);
 }
