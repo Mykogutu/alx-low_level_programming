@@ -7,6 +7,7 @@
  * @dest: Destination string
  * @src: Source string
  * @n: number of characters
+ * Return: returns concatenated string with n characters
  */
 char *_strncat(char *dest, char *src, int n)
 {
