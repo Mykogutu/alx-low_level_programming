@@ -2,7 +2,7 @@
 
 /**
  * main - prints _putchar
- * Return: The program returns 0 
+ * Return: The program returns 0
  */
 int main(void)
 {
@@ -16,4 +16,4 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 	return (0);
-}	
+}
