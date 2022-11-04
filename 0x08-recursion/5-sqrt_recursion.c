@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _sqrt_recursion(int n) - returns the square root of a number
+ * _sqrt_recursion - returns the square root of a number
  * @n: Number
  *
  * Return: Square root
