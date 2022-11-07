@@ -1,20 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - prints the number of arguments passed
+ * main - prints the numbeiir of arguments passed
+ * @argc: number of arguments
+ * @argv: list of arguments
  *
  * Return: Always 0,
  */
 int main(int argc, char *argv[])
 {
 	(void) argv;
-	if (argc >= 2)
-	{
-		printf("%d\n", argc);
-	}
-	else
-	{
-		printf("0\n");
-	}
+	printf("%d\n", argc - 1);
 	return (0);
 }
