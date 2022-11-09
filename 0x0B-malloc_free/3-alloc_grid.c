@@ -44,6 +44,7 @@ int **alloc_grid(int width, int height)
 
 	for (i = 0; i < width; i++)
 	{
-		free(twoDimenArray);
+		free(twoDimenArray[i]);
 	}
+	free(twoDimenArray);
 }
