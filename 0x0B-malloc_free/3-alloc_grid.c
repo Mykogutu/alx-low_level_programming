@@ -4,7 +4,7 @@
 
 /**
  * alloc_grid - returns a pointer to a 2 dimentional array
- * @widht: with of the array
+ * @width: with of the array
  * @height: height of the array
  *
  * Return: A two dimentional array
@@ -20,6 +20,10 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	}
 	twoDimenArray = malloc(sizeof(int *) * width);
+	if (twoDimenArray == NULL)
+	{
+		return (NULL);
+	}
 	for (i = 0; i < width; i++)
 	{
 		twoDimenArray[i] = malloc(height * sizeof(int));
@@ -28,12 +32,18 @@ int **alloc_grid(int width, int height)
 			return (NULL);
 		}
 	}
-	for (i = 0; i < height; i++)
+
+	for (i = 0; i < width; i++)
 	{
-		for (j = 0; j < width; j++)
+		for (j = 0; j < height; j++)
 		{
 			twoDimenArray[i][j] = 0;
 		}
 	}
-	return (twoDimenArray);
+	return (twoDimenArray);	
+	
+	for (i = 0; i < width; i++)
+	{
+		free(twoDimenArray);
+	}
 }
