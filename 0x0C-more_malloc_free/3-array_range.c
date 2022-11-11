@@ -4,8 +4,8 @@
 
 /**
  * array_range - create array of integers
- * @min - minimum size input
- * @max - maximum size input
+ * @min: minimum size input
+ * @max: maximum size input
  *
  * Return: An array
  */
