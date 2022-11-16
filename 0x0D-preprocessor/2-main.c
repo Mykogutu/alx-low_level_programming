@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "1-pi.h"
 
 /**
  * main - prints the file name of the source code
@@ -8,6 +7,6 @@
  */
 int main(void)
 {
-	printf("%s\n",__FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
