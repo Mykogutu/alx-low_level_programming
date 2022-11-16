@@ -1,4 +1,6 @@
 #include <stdio.h>
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * struct dog - self declared data type
@@ -14,3 +16,4 @@ struct dog
 	double age;
 	char *owner;
 };
+#endif /* DOG_H */
