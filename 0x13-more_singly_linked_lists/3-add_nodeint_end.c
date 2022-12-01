@@ -7,7 +7,7 @@
  *
  * Return: the address of the new element, or NULL if failed
  */
-listint_t *add_nodeint_end(listint **head, const int n)
+listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *lstnode;
 	listint_t *tmp;
@@ -21,7 +21,7 @@ listint_t *add_nodeint_end(listint **head, const int n)
 	lstnode->next = NULL;
 	if (*head == NULL)
 	{
-		*head == lstnode;
+		*head = lstnode;
 	}
 	else
 	{
