@@ -4,7 +4,7 @@
 /**
  * clear_bit - sets the value of a bit to 0
  * @n: the value of the bit
- * @indeex: the index starting from 0
+ * @index: the index starting from 0
  *
  * Return: 1 if it worked, or -1 if an error occured
  */
@@ -16,7 +16,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 	}
 	else
 	{
-		*n &= ~ (1 << index);
+		*n &= ~(1 << index);
 		return (1);
 	}
 }
