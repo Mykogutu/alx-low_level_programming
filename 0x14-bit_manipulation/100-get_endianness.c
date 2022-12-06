@@ -11,8 +11,8 @@
 int get_endianness(void)
 {
 	uint32_t test = 1;
-	char *testPtr = (char*) &test;
+	char *testPtr = (char *) &test;
 
-	return (int) *testPtr;
+	return ((int) *testPtr);
 }
 
